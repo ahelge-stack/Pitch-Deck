@@ -95,11 +95,11 @@ const CoverSlide = () => (
     <VideoBackground src="https://stream.mux.com/JNJEOYI6B3EffB9f5ZhpGbuxzc6gSyJcXaCBbCgZKRg.m3u8" />
     <Header left={<Logo />} right="Pitch Deck" />
     <div className="relative z-10 flex flex-col items-center justify-center text-center transform -translate-y-[3%]">
-      <h1 className="font-bold text-[clamp(32px,5vw,96px)] tracking-[-0.02em] leading-[1.05]">AI-Powered Data Analytics</h1>
-      <h2 className="text-[clamp(20px,2.5vw,48px)] opacity-90 mt-[1.5%]">Unlocking Business Potential</h2>
-      <p className="text-[clamp(14px,1.25vw,24px)] opacity-75 mt-[2%]">By John Doe</p>
+      <h1 className="font-bold text-[clamp(32px,5vw,96px)] tracking-[-0.02em] leading-[1.05]">SLAM</h1>
+      <h2 className="text-[clamp(20px,2.5vw,48px)] opacity-90 mt-[1.5%]">Meeting 2/24</h2>
+      <p className="text-[clamp(14px,1.25vw,24px)] opacity-75 mt-[2%]">X, Andrew, Temi, GiGi</p>
     </div>
-    <Footer center="2024" />
+    <Footer center="2026" />
   </div>
 );
 
@@ -109,24 +109,24 @@ const IntroSlide = () => (
     <Header left={<Logo />} center="Pitch Deck" right="Page 001" />
     <div className="relative z-10 px-[5.2%] pt-[14%] w-full h-full flex flex-col">
       <h1 className="font-bold text-[clamp(28px,4vw,64px)] tracking-[-0.02em] leading-[1.05] whitespace-pre-line">
-        {"The Rise of AI\nin Data Analytics"}
+        {"SLAM informational meeting"}
       </h1>
       <div className="flex mt-[3.5%] gap-[4%] items-start">
         <div className="flex-[0_0_22%] flex flex-col">
-          <p className="text-[clamp(13px,1.05vw,20px)] opacity-90 leading-[1.5]">The AI analytics market is experiencing unprecedented growth, rapidly expanding from $150B to new heights.</p>
+          <p className="text-[clamp(13px,1.05vw,20px)] opacity-90 leading-[1.5]">Tonight our goal is to get everyone in SLAM closer with one another, to have 1 big slam fam starting with.</p>
           <div className="mt-[2%] flex items-end gap-[2%]">
-            <span className="font-bold text-[clamp(28px,4vw,64px)] leading-none">$300B</span>
-            <span className="text-[clamp(13px,1.05vw,20px)] text-white/80 pb-[2%]">2027</span>
+            <span className="font-bold text-[clamp(28px,4vw,64px)] leading-none">KAHOOT</span>
+            <span className="text-[clamp(13px,1.05vw,20px)] text-white/80 pb-[2%]">yay</span>
           </div>
         </div>
         <div className="flex-[0_0_38%]">
           <p className="text-[clamp(13px,1.05vw,20px)] opacity-90 leading-[1.5]">
-            Businesses across the globe are rapidly adopting AI-driven analysis to transform raw data into actionable insights. By leveraging advanced machine learning algorithms, organizations can now predict market trends, understand consumer behavior with granular precision, and optimize their operational pipelines in real-time, resulting in unprecedented efficiency and strategic advantage.
+            Tonight we’re building a big, happy SLAM fam by doing two things: learning and laughing together. First, we’ll play Kahoot to learn fun facts about different people in the org—so names turn into real connections and you leave knowing a little more about your SLAMmates. Then we’ll jump into Simon Says to get everyone moving and interacting in the same space.
           </p>
         </div>
         <div className="flex-[0_0_20%] flex flex-col">
-          <span className="font-bold text-[clamp(28px,4vw,64px)] leading-none">25–40%</span>
-          <p className="text-[clamp(13px,1.05vw,20px)] opacity-90 leading-[1.5] mt-[2%]">Increase in operational efficiency.</p>
+          <span className="font-bold text-[clamp(28px,4vw,64px)] leading-none">100–150%</span>
+          <p className="text-[clamp(13px,1.05vw,20px)] opacity-90 leading-[1.5] mt-[2%]">Increase in SLAM member bonding.</p>
           <div className="mt-[4%] w-full h-[60px]">
             <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible" preserveAspectRatio="none">
               <defs>
@@ -144,7 +144,7 @@ const IntroSlide = () => (
         </div>
       </div>
     </div>
-    <Footer right="The Rise of AI" />
+    <Footer right="SLAM FAM" />
   </div>
 );
 
@@ -154,8 +154,8 @@ const AnalyticsSlide = () => (
     <Header left={<Logo />} center="Pitch Deck" right="Page 002" />
     
     <div className="relative z-10 w-full pt-[12%] flex flex-col items-center justify-center">
-      <p className="text-[clamp(14px,1.25vw,24px)] opacity-90 mb-[0.5%]">Transforming Data into Intelligence with</p>
-      <h1 className="font-bold text-[clamp(28px,4vw,64px)] tracking-[-0.02em] leading-[1.05]">AI-Powered Analytics</h1>
+      <p className="text-[clamp(14px,1.25vw,24px)] opacity-90 mb-[0.5%]">Lets get to know each other with</p>
+      <h1 className="font-bold text-[clamp(28px,4vw,64px)] tracking-[-0.02em] leading-[1.05]">Kahoot!</h1>
     </div>
 
     <div className="relative z-10 px-[5.2%] mt-[4%] flex flex-col gap-[clamp(10px,1.5vw,27px)] flex-1 pb-[6%]">
@@ -163,31 +163,31 @@ const AnalyticsSlide = () => (
       <div className="flex-1 grid grid-cols-3 gap-[clamp(10px,1.5vw,27px)]">
         <LiquidCard className="p-[clamp(20px,2.5vw,48px)]">
           <Monitor className="w-[clamp(32px,3vw,48px)] h-[clamp(32px,3vw,48px)] mb-[8%] text-white" strokeWidth={1.5} />
-          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Advanced Capabilities</h3>
-          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Real-time processing, predictive analytics, and machine learning.</p>
+          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Informational</h3>
+          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Learn more about all of your friends in SLAM.</p>
         </LiquidCard>
         <LiquidCard className="p-[clamp(20px,2.5vw,48px)]">
           <Brain className="w-[clamp(32px,3vw,48px)] h-[clamp(32px,3vw,48px)] mb-[8%] text-white" strokeWidth={1.5} />
-          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Smarter Decision-Making</h3>
-          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Helping businesses unlock insights and optimize efficiency.</p>
+          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Connection</h3>
+          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">We want everyone to know atleast one more thing about eachother.</p>
         </LiquidCard>
         <LiquidCard className="p-[clamp(20px,2.5vw,48px)]">
           <Briefcase className="w-[clamp(32px,3vw,48px)] h-[clamp(32px,3vw,48px)] mb-[8%] text-white" strokeWidth={1.5} />
-          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Industry Leader</h3>
-          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Driving AI-driven data analytics innovation.</p>
+          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Prize</h3>
+          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Secret Grand Prize for the Winner.</p>
         </LiquidCard>
       </div>
       {/* Bottom Row: 2 cards */}
       <div className="flex-1 grid grid-cols-2 gap-[clamp(10px,1.5vw,25px)]">
         <LiquidCard className="p-[clamp(20px,2.5vw,48px)]">
           <Lightbulb className="w-[clamp(32px,3vw,48px)] h-[clamp(32px,3vw,48px)] mb-[5%] text-white" strokeWidth={1.5} />
-          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Future-Ready Solutions</h3>
-          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Empowering organizations to stay competitive in a data-driven world.</p>
+          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Exposed</h3>
+          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Someone's dark secret may be brought to light.</p>
         </LiquidCard>
         <LiquidCard className="p-[clamp(20px,2.5vw,48px)]">
           <Shield className="w-[clamp(32px,3vw,48px)] h-[clamp(32px,3vw,48px)] mb-[5%] text-white" strokeWidth={1.5} />
-          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Scalable & Secure</h3>
-          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Ensuring seamless AI integration with robust data protection.</p>
+          <h3 className="font-bold text-[clamp(18px,1.8vw,36px)] leading-[1.2] mb-[2%]">Who do you know?</h3>
+          <p className="text-[clamp(12px,1.05vw,20px)] text-white/80">Lets let our guard down and be open with eachother.</p>
         </LiquidCard>
       </div>
     </div>
@@ -198,9 +198,9 @@ const QuoteSlide = () => (
   <div className="relative w-full h-full flex items-center justify-center">
     <VideoBackground src="https://stream.mux.com/4IMYGcL01xjs7ek5ANO17JC4VQVUTsojZlnw4fXzwSxc.m3u8" />
     <div className="relative z-10 max-w-[70%] flex flex-col items-center text-center gap-[12px]">
-      <span className="text-[clamp(14px,1.2vw,20px)] opacity-90 uppercase tracking-widest font-medium">Andrew Ng</span>
+      <span className="text-[clamp(14px,1.2vw,20px)] opacity-90 uppercase tracking-widest font-medium">Next Game</span>
       <h2 className="font-bold text-[clamp(28px,4vw,64px)] tracking-[-0.02em] leading-[1.15]">
-        “Artificial Intelligence is the new electricity.”
+        “Simon Says.”
       </h2>
     </div>
   </div>
@@ -212,32 +212,32 @@ const OutroSlide = () => (
     <Header left={<Logo />} center="Pitch Deck" right="Page 020" />
     <div className="relative z-10 px-[5.2%] w-full">
       <h1 className="font-bold text-[clamp(28px,4vw,64px)] tracking-[-0.02em] leading-[1.05] whitespace-pre-line">
-        {"Contact Information &\nFinal Call to Action"}
+        {"Hope Y'all had fun with us tonight!"}
       </h1>
       <p className="text-[clamp(13px,1.05vw,20px)] opacity-90 max-w-[38%] mt-[3%] leading-[1.5]">
-        Ready to transform your data into actionable intelligence? Get in touch with our team of AI specialists today and begin your journey towards a smarter, data-driven future.
+        Thanks for bringing the energy and leaning into the USA theme! Our goal was to help everyone learn a little more about each other and build more connection in SLAM—and y’all made it happen.
       </p>
       
       <div className="flex flex-col gap-[clamp(12px,1.2vw,19px)] mt-[3%]">
         <div className="flex items-center gap-[16px]">
           <svg className="w-[clamp(24px,2vw,32px)] h-[clamp(24px,2vw,32px)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-          <span className="text-[clamp(13px,1.05vw,20px)]">http://Instagram.com/grapho</span>
+          <span className="text-[clamp(13px,1.05vw,20px)]">http://Instagram.com/tamuslam</span>
         </div>
         <div className="flex items-center gap-[16px]">
           <svg className="w-[clamp(24px,2vw,32px)] h-[clamp(24px,2vw,32px)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-          <span className="text-[clamp(13px,1.05vw,20px)]">http://Facebook.com/grapho</span>
+          <span className="text-[clamp(13px,1.05vw,20px)]">http://Facebook.com/tamuslam</span>
         </div>
         <div className="flex items-center gap-[16px]">
           <Phone className="w-[clamp(24px,2vw,32px)] h-[clamp(24px,2vw,32px)]" strokeWidth={1.5} />
-          <span className="text-[clamp(13px,1.05vw,20px)]">+1 (415) 987-6543</span>
+          <span className="text-[clamp(13px,1.05vw,20px)]">+1 800-Tamu-Slam </span>
         </div>
         <div className="flex items-center gap-[16px]">
           <Mail className="w-[clamp(24px,2vw,32px)] h-[clamp(24px,2vw,32px)]" strokeWidth={1.5} />
-          <span className="text-[clamp(13px,1.05vw,20px)]">contact@optimalai.com</span>
+          <span className="text-[clamp(13px,1.05vw,20px)]">slam@tamu.edu</span>
         </div>
         <div className="flex items-center gap-[16px]">
           <MapPin className="w-[clamp(24px,2vw,32px)] h-[clamp(24px,2vw,32px)]" strokeWidth={1.5} />
-          <span className="text-[clamp(13px,1.05vw,20px)]">Headquarters: San Francisco, CA, USA</span>
+          <span className="text-[clamp(13px,1.05vw,20px)]">Headquarters: College Station, TX, USA</span>
         </div>
       </div>
     </div>
